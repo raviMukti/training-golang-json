@@ -1,3 +1,4 @@
 ## Training Golang Json
 
 - Go-Lang telah menyediakan function untuk melakukan konversi data ke JSON, yaitu menggunakan function `json.Marshal(interface{})`. Karena parameter nya adalah interface{}, maka kita bisa masukan tipe data apapun ke dalam function Marshal
+- Pada materi sebelumnya kita melakukan encode data seperti string, number, boolean, dan tipe data primitif lainnya. Walaupun memang bisa dilakukan, karena sesuai dengan kontrak interface{}, namun tidak sesuai dengan kontrak JSON. Jika mengikuti kontrak json.org, data JSON bentuknya adalah Object dan Array. JSON Object di Go-Lang direpresentasikan dengan tipe data Struct. Dimana tiap attribute di JSON Object merupakan attribute di Struct
