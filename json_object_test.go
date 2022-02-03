@@ -7,9 +7,9 @@ import (
 )
 
 type Customer struct {
-	FirstName  string
-	MiddleName string
-	LastName   string
+	FirstName  string `json:"first_name"`
+	MiddleName string `json:"middle_name"`
+	LastName   string `json:"last_name"`
 	Hobbies    []string
 	Addresses  []Address
 }
